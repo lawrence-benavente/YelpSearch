@@ -1,5 +1,7 @@
 #! python3
 # goodForWorkYelp.py - Scan all of multiple yelp pages to see if it follows certain attributes and conditions
+#input: the type of shop (ex: coffee, tea, etc.), location
+#output: how many of those shops follow attributes (ex: good for work)
 
 import requests, bs4, sys
 from selenium import webdriver
